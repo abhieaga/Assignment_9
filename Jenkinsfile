@@ -9,7 +9,7 @@ pipeline
       steps
       {
         bat 'javac HelloWorld.java'
-        bat  'java --version'
+        bat  'java -version'
        }
       }
       stage('Run')
